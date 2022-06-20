@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="#">
+    <title>25 + 5 Clock</title>
+</head>
+<body>
+    <div id="clock">
+        <h1 id="label">25 + 5 Clock</h1>
+        <div class="break">
+            <div id="break-label">Break Length</div>
+            <button id="break-decrement">-</button>
+            <button id="break-increment">+</button>
+            <div id="break-length">5</div>
+        </div>
+        <div class="session">
+            <div id="session-label">Session Length</div>
+            <button id="session-decrement">-</button>
+            <button id="session-increment">+</button>
+            <div id="session-length">25</div>
+        </div>
+        <div class="timer">
+            <div id="timer-label">Session</div>
+            <div id="time-left">25:00</div>
+        </div>
+        <div class="controls">
+            <button id="start_stop">Start/Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <audio id="beep"><source src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
+
+    
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="./index.js"></script>
+    <script src="./accurate_interval.js"></script>
+</body>
+</html>
